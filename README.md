@@ -7,13 +7,7 @@ Welcome to the **My Custom React Components** package! This package includes a r
 To install the package, use npm or yarn:
 
 ```bash
-npm install my-custom-react-components
-```
-
-or
-
-```bash
-yarn add my-custom-react-components
+npm install abba-dabba
 ```
 
 ## Usage
@@ -62,7 +56,7 @@ The `useCounter` hook provides a simple way to manage a counter state with incre
 
 ```jsx
 import React from 'react';
-import { useCounter } from 'my-custom-react-components';
+import { useCounter } from 'abba-dabba';
 
 const Counter = () => {
   const { count, increment, decrement } = useCounter();
@@ -101,10 +95,6 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contributing
 
 If you would like to contribute to this project, please open an issue or submit a pull request on GitHub.
-
-## Questions or Feedback
-
-If you have any questions or feedback, please feel free to contact me at [your-email@example.com].
 
 ---
 
